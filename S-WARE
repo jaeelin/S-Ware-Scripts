@@ -12,8 +12,8 @@ elseif game.PlaceId == (730951264) then
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/jaeelin/S-Ware/main/The%20Maze'))()
 elseif game.PlaceId == (7026828578) then
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/jaeelin/S-Ware/main/Speed%20Simulator'))()
-elseif game.PlaceId == (11966456877) then
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/jaeelin/S-Ware/main/Answer%20or%20Die'))()
+--[[elseif game.PlaceId == (11966456877) then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/jaeelin/S-Ware/main/Answer%20or%20Die'))()--]]
 elseif game.PlaceId == (893973440) then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/jaeelin/S-Ware/main/Flee%20The%20Facility'))()
 elseif game.PlaceId == (5777099015) or game.PlaceId == (9053673709) then
