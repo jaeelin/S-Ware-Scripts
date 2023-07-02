@@ -18,7 +18,7 @@ elseif game.PlaceId == (893973440) then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/jaeelin/S-Ware/main/Flee%20The%20Facility'))()
 elseif game.PlaceId == (5777099015) or game.PlaceId == (9053673709) then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/jaeelin/S-Ware/main/Cheese%20Escape'))()
-elseif game.PlaceId == (6404017472) then or game.PlaceId == (2380408164) or game.GameId == (2380408164) then
+elseif game.PlaceId == (6404017472) then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/jaeelin/S-Ware/main/Popular%20Answer'))()
 elseif game.PlaceId == (12336036424) then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/jaeelin/S-Ware/main/Slasher%20Blade'))()
