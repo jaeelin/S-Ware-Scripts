@@ -26,6 +26,8 @@ elseif game.PlaceId == (8476164859) then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/jaeelin/S-Ware/main/Slime%20Survival'))()
 elseif game.PlaceId == (277751860) then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/jaeelin/S-Ware/main/Epic%20Minigames'))()
+elseif game.PlaceId == (12398414727) then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/jaeelin/S-Ware-Scripts/main/Math%20Answer%20or%20Die'))()
 else
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/jaeelin/S-Ware/main/Unsupported'))()
 end
