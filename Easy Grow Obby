@@ -1,0 +1,50 @@
+local char = game.Players.LocalPlayer.Character
+local max = 1
+local timer = 0
+local prev = nil
+
+local function tp(checkpoint)
+    if checkpoint then
+        char.HumanoidRootPart.CFrame = CFrame.new(checkpoint.Position + Vector3.new(0, 3, 0))
+        wait(0.1)
+    end
+end
+
+local function find()
+    local cpf = game.Workspace:FindFirstChild("Checkpoints")
+    if cpf then
+        local highest = 0
+        local high = nil
+
+        for _, checkpoint in ipairs(cpf:GetChildren()) do
+            local cpn = tonumber(checkpoint.Name)
+            if cpn and cpn > highest then
+                highest = cpn
+                high = checkpoint
+            end
+        end
+
+        return high, highest
+    else
+
+    end
+end
+
+while true do
+    local high, highest = find()
+    if high then
+        tp(high)
+        if high == prev then
+            timer = timer + 0.1
+            if timer >= max then
+
+                break
+            end
+        else
+            prev = high
+            timer = 0
+        end
+    else
+        break
+    end
+end
