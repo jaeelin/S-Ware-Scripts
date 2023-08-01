@@ -28,6 +28,8 @@ elseif game.PlaceId == (277751860) then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/jaeelin/S-Ware/main/Epic%20Minigames'))()
 elseif game.PlaceId == (12398414727) then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/jaeelin/S-Ware-Scripts/main/Math%20Answer%20or%20Die'))()
+elseif game.PlaceId == (13416514259) then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/jaeelin/S-Ware-Scripts/main/Shadow%20Boxing%20Battles'))()
 else
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/jaeelin/S-Ware/main/Unsupported'))()
 end
