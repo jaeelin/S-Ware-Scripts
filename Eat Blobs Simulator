@@ -1,3 +1,5 @@
+
+
 local player = game.Players.LocalPlayer
 local playerHum = player.Character.Humanoid
 local playerHumR = player.Character.HumanoidRootPart
