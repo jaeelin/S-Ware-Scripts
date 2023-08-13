@@ -1,0 +1,23 @@
+local player = game.Players.LocalPlayer
+local playerHum = player.Character.Humanoid
+local playerHumR = player.Character.HumanoidRootPart
+
+local savedSpeed = playerHum.WalkSpeed
+local savedSize = playerHumR.Size
+
+while getgenv().farmEnabled do
+    game.Workspace.Gravity = 0
+     playerHum.WalkSpeed = walkSpeed
+    player.CameraMaxZoomDistance = math.huge
+    playerHumR.CanCollide = false
+    playerHumR.Size = Vector3.new(size, size, size)
+    wait() 
+end
+
+if not getgenv().farmEnabled then
+    playerHumR.CFrame = CFrame.new(0,25,0)
+    playerHumR.CanCollide = true
+    game.Workspace.Gravity = 196.8
+    playerHum.WalkSpeed = savedSpeed
+    playerHumR.Size = savedSize
+end
